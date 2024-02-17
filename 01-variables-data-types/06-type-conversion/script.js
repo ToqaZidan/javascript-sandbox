@@ -2,7 +2,7 @@ let amount = 'hello';
 
 // Convert string to number
 amount = parseInt(amount);
-amount = +amount;
+amount = +amount; // Unary plus operator
 amount = Number(amount);
 
 // Convert number to string
