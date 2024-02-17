@@ -37,16 +37,17 @@ x **= 5;
 // 3. Comparison Operators
 
 // Equal to (Just the value, not the type)
-x = 2 == '2';
+x = 2 == '2'; // true
 
 // Equal to (Type and value)
-x = 2 === '2';
+x = 2 === '2'; // false
 
 // Not equal to (Just the value, not the type)
-x = 2 != '2';
+x = 2 != '2';  // false
 
 // Not equal to (Type and value)
-x = 2 !== 2;
+x = 2 !== '2'; // true
+x = 2 !== 2; // false
 
 // Greater than and less than
 x = 10 > 5;
